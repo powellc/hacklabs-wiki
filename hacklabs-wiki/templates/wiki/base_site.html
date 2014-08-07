@@ -1,4 +1,4 @@
-{% load sekizai_tags i18n wiki_tags %}{% load url from future %}<!DOCTYPE html>
+{% load sekizai_tags static i18n wiki_tags %}{% load url from future %}<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -10,6 +10,8 @@
 
     <!-- Le styles -->
     <link href="{{ STATIC_URL }}wiki/bootstrap/css/wiki-bootstrap.min.css" rel="stylesheet">
+    <link href="{% static "css/base.css" %}" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Maven+Pro' rel='stylesheet' type='text/css'>
         
     {% render_block "css" %}
     
