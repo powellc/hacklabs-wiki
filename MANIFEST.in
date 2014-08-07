@@ -1,0 +1,4 @@
+include README.md
+recursive-include hacklabs/static *
+recursive-include hacklabs/templates *
+recursive-include hacklabs/apps *
