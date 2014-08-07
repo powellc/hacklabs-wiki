@@ -1,2 +1,4 @@
 venv
 host_vars
+*.pyc
+*.sqlite3
