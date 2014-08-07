@@ -6,6 +6,7 @@ dj-database-url==0.3.0
 django-cache-url==0.8.0
 psycopg2==2.5
 raven==5.0.0
+gunicorn==19.1.0
 
 # django-mptt 0.6.1 is broken, see #316
 django-mptt==0.6.0
