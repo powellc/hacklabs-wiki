@@ -141,6 +141,7 @@ class Common(Configuration):
     MEDIA_ROOT = os.path.join(BASE_DIR, 'public/media')
 
     TEMPLATE_DIRS = (os.path.join(BASE_DIR, "hacklabs-wiki/templates"),)
+    FIXTURE_DIRS = (os.path.join(BASE_DIR, "fixtures"),)
 
     STATIC_URL = '/static/'
 
